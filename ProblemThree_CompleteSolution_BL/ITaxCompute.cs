@@ -9,5 +9,6 @@ namespace ProblemThree_CompleteSolution_BL
     interface ITaxCompute
     {
         double TaxOnTotalBill();
+    
     }
 }

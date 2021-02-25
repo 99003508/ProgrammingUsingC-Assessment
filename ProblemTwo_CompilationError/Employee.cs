@@ -13,7 +13,7 @@ namespace ProblemTwo_CompilationError
         public int EmpLevel { get; set; }
         private int NoOfLeaves { get; }
         public DateTime DateOfJoining { get; set; }
-
+       
         public Employee()
         {
             //Default number of leaves credited is 2 per month based on date of joining to the current date
@@ -21,7 +21,12 @@ namespace ProblemTwo_CompilationError
         }
         public Employee(int eID,string eName,int eLevel, DateTime eDoJ)
         {
+            this.DateOfJoining = eDoJ;
+            this.EmpID = eID;
+            this.EmpLevel = eLevel;
+            this.EmpName = eName;
 
+           
         }
 
         public static int GetMonthDifference(DateTime startDate, DateTime endDate)
