@@ -19,7 +19,7 @@ namespace ProblemThree_CompleteSolution_BL
         public double TotalBillValue { get; set; }
         public double PayPerPrice(int quantity)
         {
-
+            
             return 0;
         }
         public double PayPerWeight(int weight)

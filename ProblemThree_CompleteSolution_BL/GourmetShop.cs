@@ -13,12 +13,12 @@ namespace ProblemThree_CompleteSolution_BL
 
         private Dictionary<int, double> ItemPrice = new Dictionary<int, double>();
 
-        public GourmetShop(int iCode,string iName)
-        {
-            this.ItemCode = iCode;
-            this.ItemName = iName;
+        //public GourmetShop(int iCode,string iName)
+        //{
+        //    this.ItemCode = iCode;
+        //    this.ItemName = iName;
 
-        }
+        //}
 
 
     public abstract double PayPerPiece(int quantity);
